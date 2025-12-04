@@ -1,0 +1,38 @@
+% 主文件：book 类 + 中文支持 + 章节管理
+% 编译方式：XeLaTeX 或 latexmk -xelatex
+\documentclass[12pt,oneside,openany]{book}
+
+% 统一导言区
+\input{preamble.tex}
+% 参考文献数据库
+\addbibresource{references.bib}
+
+% 元信息
+\title{中文讲义模板}
+\author{张三}
+\date{\today}
+
+\begin{document}
+
+% 封面
+\input{cover.tex}
+
+% 前言部分
+\frontmatter
+\tableofcontents
+
+% 正文部分
+\mainmatter
+\include{chapters/chap-intro}
+\include{chapters/chap-math}
+
+% 附录（可选）
+%\appendix
+%\include{chapters/appendix-A}
+
+% 索引（可选）
+% 参考文献放在文末
+\backmatter
+\printbibliography
+
+\end{document}

@@ -1,0 +1,46 @@
+% 第二章：数学示例
+\chapter{数学与公式}
+
+本章演示数学环境与定理环境：
+
+\section{基本公式}
+\begin{equation}
+  E = mc^2
+\end{equation}
+
+\begin{equation}
+  \int_{0}^{\pi} \sin x\, dx = 2
+\end{equation}
+
+行内公式示例：令 $\alpha,\beta \in \mathbb{R}$，若 $\alpha>0$ 且 $\beta>0$，则 $\alpha\beta>0$。
+
+\section{定理环境}
+\begin{theorem}[示例定理]
+设 $A \in \mathbb{R}^{n\times n}$。若 $A$ 可逆，则 $\rank(A)=n$。
+\end{theorem}
+
+\begin{proof}
+由可逆矩阵的秩等于其阶数的性质，命题成立。
+\end{proof}
+
+\section{表格与图片}
+示例表格：
+\begin{table}[h]
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    变量 & 说明 \\
+    \midrule
+    $x$ & 自变量 \\
+    $y$ & 因变量 \\
+    \bottomrule
+  \end{tabular}
+  \caption{示例表格}
+\end{table}
+
+插图示例（将图片放到 `images/` 并替换文件名）：
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.6\textwidth]{images/example.png}
+%   \caption{示例图片}
+% \end{figure}

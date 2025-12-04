@@ -1,0 +1,10 @@
+% 第一章：示例（中文排版）
+\chapter{绪论}
+
+本讲义旨在提供一个简洁易用的中文 LaTeX 书籍模板，支持中文排版、数学公式与分章节管理。你可以将每个主题拆分成独立章节文件，使用 \verb+\include{chapters/xxx}+ 统一组织。关于 LaTeX 的背景与设计思想可参考 \textcite{lamport1994latex}。
+
+\section{动机}
+LaTeX 在学术写作中非常常见，结合 XeLaTeX 与 \verb+ctex+ 宏包可以方便地进行中文类型设置。通过 \verb+book+ 文类管理章节结构，能清晰维护一个长期的讲义项目。关于中文文档支持与配置，可参见 \parencite{ctex-doc,zhang2020example}。
+
+\section{结构约定}
+建议将每一章作为一个独立的 `chapters/chap-*.tex` 文件，避免主文件过于臃肿。章节文件只写内容，不需重复导言区设置。

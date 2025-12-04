@@ -1,0 +1,65 @@
+% 导言区：中文、数学、页面等统一配置
+% 使用 XeLaTeX 编译
+% 中文支持（使用 XeLaTeX 编译；避免 pdfLaTeX 下的 CTeX 字体集错误）
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath,amssymb,amsthm} % 数学环境
+\usepackage{mathtools}
+\usepackage{physics}               % 常用物理/数学命令（可选）
+\usepackage{siunitx}               % 单位（可选）
+\usepackage{graphicx}              % 插图
+\usepackage{xcolor}                % 颜色
+\usepackage{booktabs}              % 表格
+\usepackage{hyperref}              % 目录/引用超链接
+\usepackage{geometry}              % 页面尺寸
+\usepackage{titlesec}              % 标题格式（可选）
+\usepackage{fancyhdr}              % 页眉页脚（可选）
+\usepackage{enumerate}
+\usepackage{listings}              % 代码高亮（可选）
+
+% 引用与参考文献（建议使用 biber）
+\usepackage{csquotes}
+\usepackage[backend=biber,style=authoryear,sorting=nyt]{biblatex}
+
+% 页面设置
+\geometry{a4paper, margin=1in}
+
+% 超链接样式
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+% 章节标题样式（可调整）
+% \titleformat{\chapter}[hang]{\bfseries\huge}{\thechapter}{1em}{}
+% \titlespacing*{\chapter}{0pt}{0pt}{1em}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[CE,CO]{\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+% 解决 fancyhdr 对 \headheight 的要求
+\setlength{\headheight}{15pt}
+
+% 彻底取消“右页起章”导致的空白页
+\makeatletter
+\let\cleardoublepage\clearpage
+\makeatother
+
+% 定理环境（按需启用）
+\theoremstyle{plain}
+\newtheorem{theorem}{定理}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{定义}[chapter]
+\theoremstyle{remark}
+\newtheorem{remark}{注}[chapter]
+
+% 常用数学宏
+% 避免与其它宏包（如 physics）重复定义 \rank
+\DeclareMathOperator{\Rank}{rank}
+\DeclareMathOperator{\diag}{diag}
+
+% 章节文件管理方式：建议使用 \include（支持独立编译与分页），也可用 \input。
