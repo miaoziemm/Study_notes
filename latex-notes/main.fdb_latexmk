@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1764861051 "main.bcf" "main.bbl" "main" 1764861288 0
+["biber main"] 1764861051 "main.bcf" "main.bbl" "main" 1764861512 0
   "./references.bib" 1764861049 567 e618a12d28a16bd8e6cf2e0bb8214832 ""
-  "main.bcf" 1764861288 107960 be68d0744e6b4980a2eeb13e50325504 "pdflatex"
+  "main.bcf" 1764861511 107960 be68d0744e6b4980a2eeb13e50325504 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764861287 "/Users/changzhimiao/develope_Changzhimiao/Study_notes/latex-notes/main.tex" "main.pdf" "main" 1764861288 0
+["pdflatex"] 1764861510 "/Users/changzhimiao/develope_Changzhimiao/Study_notes/latex-notes/main.tex" "main.pdf" "main" 1764861512 0
   "/System/Library/Fonts/Menlo.ttc" 1755369869 2156036 ec05dfca6821d85440da0899493002c3 ""
-  "/Users/changzhimiao/develope_Changzhimiao/Study_notes/latex-notes/main.tex" 1764861287 647 5dc154679c80aef78db67b3afe789aa5 ""
+  "/Users/changzhimiao/develope_Changzhimiao/Study_notes/latex-notes/main.tex" 1764861393 647 5dc154679c80aef78db67b3afe789aa5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -148,18 +148,18 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1695001945 10502842 bbe68f4015f6762dc24e42b013ecda1a ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "chapters/chap-intro.aux" 1764861288 4427 464aa8bcbb7c8a2b604e179c05bf7cc0 "pdflatex"
+  "chapters/chap-intro.aux" 1764861511 4427 464aa8bcbb7c8a2b604e179c05bf7cc0 "pdflatex"
   "chapters/chap-intro.tex" 1764861049 861 e3ea4ff595ae00cf0d5ba2826b70e1b5 ""
-  "chapters/chap-math.aux" 1764861288 4682 aa540d59999be549db9ee13225001f42 "pdflatex"
+  "chapters/chap-math.aux" 1764861511 4682 aa540d59999be549db9ee13225001f42 "pdflatex"
   "chapters/chap-math.tex" 1764860370 1040 d087b557790fa7877880db83d79bcd8a ""
-  "cover.tex" 1764861168 238 f74583cfd0ad5c67003adc150994ec1c ""
-  "main.aux" 1764861288 1280 556375577c8616a2ab4ecf79613d08a9 "pdflatex"
+  "cover.tex" 1764861508 238 2c042b062407dcbbd5b85009ac7a5d77 ""
+  "main.aux" 1764861511 1280 556375577c8616a2ab4ecf79613d08a9 "pdflatex"
   "main.bbl" 1764861080 4081 fd394c0ee49ee2871f0b7b18801c931c "biber main"
-  "main.out" 1764861288 564 4ae849b28d4fd2dcec1da63f805d2c85 "pdflatex"
-  "main.run.xml" 1764861288 2346 5de0f744871ed2da5be4bd19bbdf404b "pdflatex"
-  "main.tex" 1764861287 647 5dc154679c80aef78db67b3afe789aa5 ""
-  "main.toc" 1764861288 490 1aeb789510bc8e81e579b2fa3b07a184 "pdflatex"
-  "preamble.tex" 1764861280 2066 7c63cafce6fc7c61498d62e0ceeb14c8 ""
+  "main.out" 1764861511 564 4ae849b28d4fd2dcec1da63f805d2c85 "pdflatex"
+  "main.run.xml" 1764861511 2346 5de0f744871ed2da5be4bd19bbdf404b "pdflatex"
+  "main.tex" 1764861393 647 5dc154679c80aef78db67b3afe789aa5 ""
+  "main.toc" 1764861511 490 1aeb789510bc8e81e579b2fa3b07a184 "pdflatex"
+  "preamble.tex" 1764861393 2066 7c63cafce6fc7c61498d62e0ceeb14c8 ""
   (generated)
   "chapters/chap-intro.aux"
   "chapters/chap-math.aux"
