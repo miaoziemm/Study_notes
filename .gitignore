@@ -1,0 +1,69 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Common editor swap/backup
+*~
+*.swp
+*.swo
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ind
+*.ilg
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.xdv
+
+# Glossaries/indices
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.xdy
+*.lol
+*.lox
+*.thm
+
+# minted listings
+_minted*
+*.pyg
+
+# latexmk/aux logs
+texput.log
+*.pdfsync
+
+# JetBrains
+.idea/
+
+# Node / misc caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+
+# Optional: uncomment if you don't want to commit local VS Code settings
+# .vscode/
+
+# Optional: ignore generated PDFs (disabled by default)
+# *.pdf
